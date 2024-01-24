@@ -1,0 +1,26 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "basic",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cline59/basic-http-class-example.git"
+  },
+  "author": "Chb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cline59/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/cline59/basic-http-class-example#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
